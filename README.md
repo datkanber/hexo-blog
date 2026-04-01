@@ -77,4 +77,4 @@ Cloudflare Pages builds and deploys automatically on every push to `main`.
 
 ## License
 
-Blog content © 2025 Burak Kanber. All rights reserved.
+Blog content © 2026 Burak Kanber. All rights reserved.
