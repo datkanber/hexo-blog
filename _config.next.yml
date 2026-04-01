@@ -1,0 +1,255 @@
+# ---------------------------------------------------------------
+# NexT Theme Configuration
+# ---------------------------------------------------------------
+
+# Scheme — Gemini has a nice dual-column layout with sidebar
+scheme: Gemini
+
+# Theme Color (browser UI + some theme accents)
+theme_color:
+  light: "#1a56db"
+  dark: "#1c1917"
+
+# Dark Mode
+darkmode: true
+
+# Hide language selector until /tr pages are published
+language_switcher: false
+
+# Custom file injections — enable all custom overrides
+custom_file_path:
+  head: source/_data/head.njk
+  footer: source/_data/footer.njk
+  variable: source/_data/variables.styl
+  style: source/_data/styles.styl
+
+# ---------------------------------------------------------------
+# Site Information
+# ---------------------------------------------------------------
+
+favicon:
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+
+creative_commons:
+  license: by-nc-sa
+  size: small
+  sidebar: true
+  post: true
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: true
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+
+sidebar:
+  position: left
+  width_expanded: 320
+  width_dual_column: 240
+  display: always
+  padding: 18
+  offset: 12
+
+# Sidebar Avatar
+avatar:
+  url: /images/profile.jpg
+  rounded: true
+  rotated: false
+
+# Posts / Categories / Tags in sidebar
+site_state: true
+
+# Social Links
+social:
+  GitHub: https://github.com/datkanber || fab fa-github
+  LinkedIn: https://www.linkedin.com/in/burak2kanber/ || fab fa-linkedin
+  Kaggle: https://www.kaggle.com/kanberburak || fab fa-kaggle
+  E-Mail: mailto:burak2kanber@gmail.com || fa fa-envelope
+  ORCID: https://orcid.org/0009-0006-5688-5372 || fab fa-orcid
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: true
+
+# Blog Rolls
+links_settings:
+  icon: fa fa-globe
+  layout: block
+
+links:
+  MATISSE EU Project: https://matisse-kdt.eu/
+  ESOGU IFARLAB: https://ifarlab.ogu.edu.tr/
+  ESOGU CISAR: https://cisar.ogu.edu.tr/
+
+# Table of Contents in Sidebar
+toc:
+  enable: true
+  number: true
+  wrap: true
+  expand_all: false
+  max_depth: 4
+
+# ---------------------------------------------------------------
+# Footer Settings
+# ---------------------------------------------------------------
+
+footer:
+  since: 2025
+  icon:
+    name: fa fa-heart
+    animated: false
+    color: "#1a56db"
+  powered: true
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+
+excerpt_description: true
+read_more_btn: true
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+tag_icon: true
+
+# Post edit — link to GitHub source
+post_edit:
+  enable: true
+  url: https://github.com/datkanber/hexo-blog/edit/main/my-blog/source/
+
+# Show previous/next post
+post_navigation: left
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+
+preconnect: true
+
+text_align:
+  desktop: justify
+  mobile: justify
+
+mobile_layout_economy: true
+
+codeblock:
+  theme:
+    light: github
+    dark: github-dark
+  copy_button:
+    enable: true
+    style: mac
+  fold:
+    enable: true
+    height: 500
+  language: true
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+reading_progress:
+  enable: true
+  start_at: left
+  position: top
+  reversed: false
+  color: "#1a56db"
+  height: 3px
+
+bookmark:
+  enable: true
+  color: "#1a56db"
+  save: auto
+
+github_banner:
+  enable: true
+  permalink: https://github.com/datkanber
+
+# ---------------------------------------------------------------
+# Font Settings
+# ---------------------------------------------------------------
+
+font:
+  enable: true
+  host: https://fonts.googleapis.com
+  global:
+    external: true
+    family: Inter
+    size:
+  title:
+    external: true
+    family: Inter
+    size:
+  headings:
+    external: true
+    family: Inter
+    size:
+  posts:
+    external: true
+    family: Inter
+  codes:
+    external: true
+    family: JetBrains Mono
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
+index_with_subtitle: true
+
+# ---------------------------------------------------------------
+# Animation Settings
+# ---------------------------------------------------------------
+
+motion:
+  enable: false
+  async: false
+  duration: 300
+  transition:
+    menu_item: fadeInDown
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeIn
+    coll_header: fadeInLeft
+    sidebar: fadeInUp
+
+# FancyBox image zoom
+fancybox: false
+
+# Lazyload images
+lazyload: true
+
+# ---------------------------------------------------------------
+# Tag Cloud Settings
+# ---------------------------------------------------------------
+
+tagcloud:
+  min: 12
+  max: 30
+  amount: 200
+  orderby: name
+  order: 1
