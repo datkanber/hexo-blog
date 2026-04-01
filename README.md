@@ -1,4 +1,4 @@
-# Burak Kanber — Personal Blog
+# Burak Kanber Personal Blog
 
 Personal technical blog built with [Hexo](https://hexo.io/) and the [NexT](https://theme-next.js.org/) theme, deployed on Cloudflare Pages.
 
